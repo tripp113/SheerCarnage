@@ -223,7 +223,7 @@ body:not(.dark-mode) {
     margin: 1rem auto 2rem auto;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    min-height: 420px;
+    min-height: 520px;
 }
 
 .hero-image {

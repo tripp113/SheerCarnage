@@ -31,3 +31,10 @@ document.addEventListener("click", (e) => {
 
 // when partials load, update the button UI once
 window.addEventListener("partials:loaded", syncToggleUI);
+
+window.addEventListener("partials:loaded", () => {
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+    }
+});
